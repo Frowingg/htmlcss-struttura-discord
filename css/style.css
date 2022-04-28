@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+nav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+    /* align-items: center; */
+    
+}
+.box_nav{
+    height: 30px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+.link{
+    flex-grow: 1;
+    text-align: center;
+}
