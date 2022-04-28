@@ -33,3 +33,30 @@ header{
     width: 50%;
     height: 300px;
 }
+section{
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+.gr{
+    background-color: gray;
+}
+.main-big-content{
+    background-color: #1e90ff;
+    width: 40%;
+    height: 80%;
+}
+.main-small-content{
+    background-color: #ffc0cb;
+    width: 20%;
+    height: 80%;
+}
+.last{
+    height: 800px;
+}
+.green_box{
+    height: 90%;
+    width: 60%;
+    background-color: green;
+}
