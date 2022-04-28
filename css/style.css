@@ -33,7 +33,7 @@ header{
     width: 50%;
     height: 300px;
 }
-section{
+.section_main{
     display: flex;
     height: 450px;
     justify-content: center;
@@ -59,4 +59,44 @@ section{
     height: 90%;
     width: 60%;
     background-color: green;
+}
+.section_footer{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: #23272a;
+    border-bottom: 1px solid #ccc;
+    padding-top: 1%;
+}
+.end{
+    height: 100px;
+}
+.footer-small-content{
+    background-color: #f08080;
+    width: 20%;
+    height: 90%;
+}
+.footer-big-content{
+    background-color: #20b2aa;
+    width: 40%;
+    height: 90%;
+}
+.section_footer_end{
+    height: 100px;
+    background-color: #23272a;
+}
+
+.footer{
+    display: flex;
+    width: 60%;
+    height: 80%;
+    background-color: #7fffd4;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, button{
+    background-color: #ffb6c1;
+    height: 22px;
+    padding: 3px;
 }
