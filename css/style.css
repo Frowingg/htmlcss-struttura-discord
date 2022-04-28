@@ -21,3 +21,15 @@ nav{
     flex-grow: 1;
     text-align: center;
 }
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.header-content{
+    background-color: pink;
+    width: 50%;
+    height: 300px;
+}
