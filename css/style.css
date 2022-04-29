@@ -5,10 +5,21 @@
 }
 .header-top{
     background-color: lightblue;
+    height: 80px;
     display: flex;
+    align-items: center;
+    /* display: flex;
     margin: auto;
     justify-content: center;
-    padding: 10px 0;
+    padding: 10px 0; */
+}
+.container{
+    margin: auto;
+    width: 60%;
+
+}
+.navigation-area{
+    display: flex;
 }
 .logo, nav, .login{
     border: 1px dotted black;
@@ -16,14 +27,14 @@
     padding: 5px;
 }
 .logo{
-    width: 10%;
+    width: 20%;
 }
 nav{
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 .login{
-    width: 10%;
+    width: 20%;
     text-align: right;
 }
 .header-bottom{
@@ -33,11 +44,30 @@ nav{
     justify-content: center;
     align-items: center;
 }
+
 .header-content{
     background-color: pink;
     width: 50%;
     height: 300px;
 }
+.nav-col{
+    padding: 10px 0;
+}
+ul{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    padding: 0 15px;
+}
+.menu li a{
+    text-decoration: none;
+}
+
+
 .section_main{
     display: flex;
     height: 450px;
@@ -65,7 +95,7 @@ nav{
     width: 60%;
     background-color: green;
 }
-.section_footer{
+.footer-top{
     display: flex;
     height: 400px;
     justify-content: center;
@@ -85,23 +115,26 @@ nav{
     background-color: #20b2aa;
     width: 40%;
     height: 90%;
-}
-.section_footer_end{
-    height: 100px;
-    background-color: #23272a;
-}
-
-.footer{
     display: flex;
-    width: 60%;
-    height: 80%;
-    background-color: #7fffd4;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
 }
-.logoo, button{
-    background-color: #ffb6c1;
-    height: 22px;
-    padding: 3px;
+.footer-column{
+    border: 1px dotted black;
+    width: calc(100% / 4);
+}
+.footer-bottom{
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom-content{
+    background-color: #20b2aa;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    background-color: #f08080;
+    margin: 20px 0;
+    padding: 5px;
 }
