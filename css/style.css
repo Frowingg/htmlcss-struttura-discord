@@ -8,10 +8,6 @@
     height: 80px;
     display: flex;
     align-items: center;
-    /* display: flex;
-    margin: auto;
-    justify-content: center;
-    padding: 10px 0; */
 }
 .container{
     margin: auto;
